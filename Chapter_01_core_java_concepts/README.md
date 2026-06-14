@@ -8,6 +8,7 @@
 
 ## Table of Contents
 
+### Core Topics (Videos 1-100)
 1. [Language Fundamentals](#1-language-fundamentals)
 2. [Operators and Assignments](#2-operators-and-assignments)
 3. [Flow Control](#3-flow-control)
@@ -18,6 +19,24 @@
 8. [Multi Threading](#8-multi-threading)
 9. [Multithreading Enhancement](#9-multithreading-enhancement)
 10. [Inner Classes](#10-inner-classes)
+
+### Extended Topics (Additional Playlists)
+- [Chapter 11: Generics](../Chapter_11_Generics)
+- [Chapter 12: Collections Framework](../Chapter_12_Collections_Framework)
+- [Chapter 13: Concurrent Collections](../Chapter_13_Concurrent_Collections)
+- [Chapter 14: Garbage Collection](../Chapter_14_Garbage_Collection)
+- [Chapter 15: JVM Architecture](../Chapter_15_JVM_Architecture)
+- [Chapter 16: Enums](../Chapter_16_Enums)
+- [Chapter 17: File I/O](../Chapter_17_File_IO)
+- [Chapter 18: Assertions](../Chapter_18_Assertions)
+- [Chapter 19: Regular Expressions](../Chapter_19_Regular_Expressions)
+- [Chapter 20: Serialization](../Chapter_20_Serialization)
+- [Chapter 21: Java 8 Features](../Chapter_21_Java_8_Features)
+- [Chapter 22: String/StringBuffer/StringBuilder](../Chapter_22_String_StringBuffer_StringBuilder)
+- [Chapter 23: java.lang Package](../Chapter_23_java_lang_Package)
+- [Chapter 24: Internationalization](../Chapter_24_Internationalization)
+- [Chapter 25: Development](../Chapter_25_Development)
+- [Chapter 26: Inner Classes (Complete)](../Chapter_26_Inner_Classes_Complete)
 
 ---
 
@@ -185,7 +204,7 @@
 ## 🎯 Learning Path
 
 ```
-Start Here
+Phase 1: Foundation
     │
     ├── Language Fundamentals ──→ Identifiers, Data Types, Arrays, Variables
     │
@@ -195,9 +214,15 @@ Start Here
     │
     ├── Declarations & Access Modifiers ──→ File structure, import, modifiers
     │
-    ├── Interface & Abstract Class Loopholes ──→ Constructor rules, differences
+    └── Interface & Abstract Class Loopholes ──→ Constructor rules, differences
+
+Phase 2: Object-Oriented Programming
     │
     ├── OOPs Concepts ──→ Inheritance, Overloading, Overriding, Control Flow
+    │
+    └── Inner Classes (Complete) ──→ Normal, Method Local, Anonymous, Static Nested
+
+Phase 3: Advanced Core Java
     │
     ├── Exception Handling ──→ try-catch, throw, throws, custom exceptions
     │
@@ -205,7 +230,39 @@ Start Here
     │
     ├── Multithreading Enhancement ──→ Concurrent package, thread pools, locks
     │
-    └── Inner Classes ──→ Nested class types and usage
+    └── Generics ──→ Type safety, wildcards, bounded types
+
+Phase 4: Collections & Data Structures
+    │
+    ├── Collections Framework ──→ List, Set, Map, Queue, Comparator
+    │
+    ├── Concurrent Collections ──→ ConcurrentHashMap, CopyOnWriteArrayList
+    │
+    └── String/StringBuffer/StringBuilder ──→ Immutability, performance
+
+Phase 5: JVM & Memory Management
+    │
+    ├── JVM Architecture ──→ Class loading, runtime data areas, execution engine
+    │
+    ├── Garbage Collection ──→ GC algorithms, heap structure, references
+    │
+    └── java.lang Package ──→ Object, String, Wrapper classes, Math, System
+
+Phase 6: I/O & Utilities
+    │
+    ├── File I/O ──→ File, streams, serialization, NIO.2
+    │
+    ├── Regular Expressions ──→ Pattern, Matcher, groups, validation
+    │
+    ├── Assertions ──→ Runtime flags, proper usage
+    │
+    └── Internationalization ──→ Locale, ResourceBundle, formatting
+
+Phase 7: Modern Java
+    │
+    ├── Java 8 Features ──→ Lambda, Streams, Optional, Date/Time API
+    │
+    └── Development ──→ Build tools, classpath, annotations
 ```
 
 ---
