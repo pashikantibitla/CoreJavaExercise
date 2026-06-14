@@ -1,0 +1,11 @@
+username,password,expected_status,expected_message,test_case
+admin,admin123,200,success,valid_admin
+user1,user1pass,200,success,valid_user
+user2,user2pass,200,success,valid_user
+invalid_user,wrongpass,401,unauthorized,invalid_credentials
+locked_user,lockedpass,403,account_locked,locked_account
+empty_user,,400,required,empty_username
+admin,wrongpassword,401,unauthorized,wrong_password
+user1,,400,required,empty_password
+admin,admin123,200,success,valid_admin_retry
+

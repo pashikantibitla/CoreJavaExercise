@@ -1,0 +1,66 @@
+[
+  {
+    "username": "admin",
+    "password": "admin123",
+    "expected_status": 200,
+    "expected_message": "success",
+    "test_case": "valid_admin"
+  },
+  {
+    "username": "user1",
+    "password": "user1pass",
+    "expected_status": 200,
+    "expected_message": "success",
+    "test_case": "valid_user"
+  },
+  {
+    "username": "user2",
+    "password": "user2pass",
+    "expected_status": 200,
+    "expected_message": "success",
+    "test_case": "valid_user2"
+  },
+  {
+    "username": "invalid_user",
+    "password": "wrongpass",
+    "expected_status": 401,
+    "expected_message": "unauthorized",
+    "test_case": "invalid_credentials"
+  },
+  {
+    "username": "locked_user",
+    "password": "lockedpass",
+    "expected_status": 403,
+    "expected_message": "account_locked",
+    "test_case": "locked_account"
+  },
+  {
+    "username": "empty_user",
+    "password": "",
+    "expected_status": 400,
+    "expected_message": "required",
+    "test_case": "empty_username"
+  },
+  {
+    "username": "admin",
+    "password": "wrongpassword",
+    "expected_status": 401,
+    "expected_message": "unauthorized",
+    "test_case": "wrong_password"
+  },
+  {
+    "username": "user1",
+    "password": "",
+    "expected_status": 400,
+    "expected_message": "required",
+    "test_case": "empty_password"
+  },
+  {
+    "username": "admin",
+    "password": "admin123",
+    "expected_status": 200,
+    "expected_message": "success",
+    "test_case": "valid_admin_retry"
+  }
+]
+

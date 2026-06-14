@@ -94,6 +94,15 @@ This repository contains **complete, comprehensive study materials** covering **
 25. **[Chapter 25: Development](./Chapter_25_Development)**
     - JDK/JRE/JVM, JAR/WAR/EAR, Classpath, Java CLI Tools, Maven/Gradle, Build Lifecycle
 
+### API Testing Module
+26. **[API Testing Using Postman](./API_Testing_Using_Postman)**
+    - API Testing Fundamentals (REST, SOAP, HTTP, Auth)
+    - SOAP UI Concepts (WSDL, SOAP Messages, Assertions)
+    - POJO Classes and JSON (Serialization, Jackson, Gson, Memory)
+    - Postman Tutorial (Collections, Variables, Newman, Jenkins)
+    - Java Automation (RestAssured, Framework, CI/CD)
+    - Real-World Projects (E-Commerce, Banking, Social Media)
+
 ---
 
 ## Repository Structure
@@ -264,6 +273,65 @@ CoreJavaExercise/
 │       ├── AnonymousInnerClassExample.java
 │       ├── ... (6 programs)
 │
+├── API_Testing_Using_Postman/
+│   ├── 01_API_Testing_Basics/
+│   │   ├── 01_API_Testing_Fundamentals.md
+│   │   └── README.md
+│   ├── 02_SOAP_UI_Concepts/
+│   │   ├── 02_SOAP_UI_Concepts.md
+│   │   └── README.md
+│   ├── 03_POJO_Classes_and_JSON/
+│   │   ├── 03_POJO_Classes_and_JSON.md
+│   │   └── README.md
+│   ├── 04_Postman_Beginner_Tutorial/
+│   │   ├── 04_Postman_Tutorial.md
+│   │   ├── README.md
+│   │   └── postman_collections/
+│   │       ├── sample_pre_request_script.js
+│   │       ├── sample_test_script.js
+│   │       ├── sample_data_driven.csv
+│   │       ├── sample_data_driven.json
+│   │       └── newman_commands.md
+│   ├── 05_Automation_with_Java/
+│   │   ├── 05_Automation_with_Java.md
+│   │   └── README.md
+│   ├── 06_Real_World_Projects/
+│   │   ├── 06_Real_World_Projects.md
+│   │   └── README.md
+│   ├── java_programs/
+│   │   ├── EmployeePOJO.java
+│   │   ├── EmployeeLombok.java
+│   │   ├── EmployeeJacksonSerialization.java
+│   │   ├── EmployeeGsonSerialization.java
+│   │   ├── NestedPOJOExample.java
+│   │   ├── MemoryAllocationDemo.java
+│   │   ├── JsonTreeModel.java
+│   │   ├── JsonStreamingModel.java
+│   │   ├── JsonSchemaValidation.java
+│   │   ├── RestAssuredBasicTest.java
+│   │   ├── RestAssuredAuthTest.java
+│   │   ├── RestAssuredPojoTest.java
+│   │   ├── RestAssuredDataDrivenTest.java
+│   │   ├── RestAssuredChainingTest.java
+│   │   ├── RestAssuredJsonPathTest.java
+│   │   ├── HttpClientTest.java
+│   │   ├── OkHttpTest.java
+│   │   ├── ApiFrameworkBaseTest.java
+│   │   ├── UserController.java
+│   │   ├── UserService.java
+│   │   ├── ConfigReader.java
+│   │   ├── JsonUtils.java
+│   │   ├── TestDataGenerator.java
+│   │   ├── ExtentReportManager.java
+│   │   ├── EcommercePojos.java
+│   │   ├── EcommerceController.java
+│   │   ├── EcommerceApiTest.java
+│   │   ├── UserManagementApiTest.java
+│   │   ├── BankingApiTest.java
+│   │   ├── SocialMediaApiTest.java
+│   │   └── DataFlowDemo.java
+│   └── README.md
+│
 ├── README.md (this file)
 └── .gitignore
 ```
@@ -310,29 +378,40 @@ Phase 6: I/O & Utilities
 Phase 7: Modern Java
 ├── Java 8 Features (Lambda, Streams, Optional)
 └── Development & Build Tools
+
+Phase 8: API Testing Mastery
+├── API Testing Fundamentals (REST, SOAP, HTTP, Auth)
+├── Postman Tool Mastery (Collections, Variables, Newman)
+├── Java Automation (RestAssured, Framework, CI/CD)
+└── Real-World Projects (E-Commerce, Banking, Social Media)
 ```
 
 ---
 
 ## Statistics
 
-- **Total Chapters:** 26
-- **Total Markdown Files:** 30+ theory files
-- **Total Java Programs:** 150+ programs
-- **Total Interview FAQs:** 200+ questions
-- **Topics Covered:** 100% of Durga Sir's OCJP/SCJP Course
+- **Total Chapters:** 26 Core Java + 1 API Testing Module
+- **Total Markdown Files:** 40+ theory files
+- **Total Java Programs:** 185+ programs
+- **Total Postman Scripts:** 5+ sample files
+- **Total Interview FAQs:** 330+ questions
+- **Topics Covered:** 100% of Durga Sir's OCJP/SCJP Course + 100% of Postman Beginner Tutorial
 
 ---
 
 ## Key Features
 
-1. **Every Topic Covered** — No topic from the video collection is skipped
+1. **Every Topic Covered** — No topic from any video collection is skipped
 2. **Comprehensive Theory** — Detailed markdown files with examples
-3. **Practical Programs** — 150+ Java programs demonstrating each concept
-4. **Interview Ready** — 200+ interview questions from low to high/severe levels
-5. **Code Examples** — Every concept has working code examples
-6. **Comparison Tables** — Key differences summarized in tables
-7. **Learning Paths** — Structured progression from beginner to advanced
+3. **Practical Programs** — 185+ Java programs demonstrating each concept
+4. **Postman Scripts** — Pre-request and test script examples for automation
+5. **Interview Ready** — 330+ interview questions from low to high/severe levels
+6. **Code Examples** — Every concept has working code examples
+7. **Comparison Tables** — Key differences summarized in tables
+8. **Memory Diagrams** — ASCII art showing heap, stack, string pool allocation
+9. **Real-World Projects** — E-commerce, Banking, Social Media, User Management
+10. **Framework Ready** — Complete Java automation framework with CI/CD
+11. **Learning Paths** — Structured progression from beginner to advanced
 
 ---
 
